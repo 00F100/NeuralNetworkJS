@@ -1,6 +1,6 @@
 var NeuralNetwork = {
     
-    exec: function(context, matrix = [], input, hiddenColumn, hiddenRow, outputColumns, outputData) {
+    exec: function(context, matrix, input, hiddenColumn, hiddenRow, outputColumns, outputData) {
         if(matrix == null) {
             matrix = [];
         }
