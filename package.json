@@ -1,12 +1,12 @@
 {
-  "name": "neuralnetworkjs",
-  "version": "1.0.0",
+  "name": "@00f100/neuralnetworkjs",
+  "version": "1.0.1",
   "description": "Neural network in JS",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/00F100/NeuralNetworkJS.git"
   },
-  "author": "Joao Moraes <joaomoraesbr@gmail.com>",
+  "author": "00f100",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/00F100/NeuralNetworkJS/issues"

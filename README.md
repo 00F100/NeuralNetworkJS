@@ -5,13 +5,13 @@ Netural network in JS
 ## How to install
 
 ```
-$ npm install neuralnetworkjs
+$ npm install @00f100/neuralnetworkjs
 ```
 
 in HTML file, include script
 
 ```
-<script type="text/javascript" src="node_modules/neuralnetworkjs/src/neural-network.js"></script>
+<script type="text/javascript" src="node_modules/@00f100/neuralnetworkjs/src/neural-network.js"></script>
 ```
 
 ## How to use

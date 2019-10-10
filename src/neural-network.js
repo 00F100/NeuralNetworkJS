@@ -92,8 +92,12 @@ var NeuralNetwork = {
     genMatrix: function(totalWeight) {
         var items = [];
         for(var i = 0; i < totalWeight; i++) {
-            items.push(me.Math.random(1, 1000) * (me.Math.random(1,4) == 1 ? 1 : -1));
+            items.push(this.rand(1, 1000) * (this.rand(1,4) == 1 ? 1 : -1));
         }
         return items;
+    },
+
+    rand: function(min, max) {
+        return Math.floor(Math.random() * (max - min + 1)) + min;
     }
 };
