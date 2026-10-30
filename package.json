@@ -12,6 +12,9 @@
   },
   "author": "00f100",
   "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  },
   "bugs": {
     "url": "https://github.com/00F100/NeuralNetworkJS/issues"
   },
