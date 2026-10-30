@@ -1,7 +1,11 @@
 {
   "name": "@00f100/neuralnetworkjs",
-  "version": "1.0.2",
-  "description": "Neural network in JS",
+  "version": "2.0.0",
+  "description": "Standalone multilayer perceptron in JavaScript",
+  "main": "src/neural-network.js",
+  "scripts": {
+    "test": "node --test test"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/00F100/NeuralNetworkJS.git"
